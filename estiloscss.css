@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+}
+
+
+.menu{
+	text-align: center;
+	font-family: Arial;
+	width: 500px;
+	height: 100px;
+	background: radial-gradient(80px, powderblue, lightgreen);
+	border-radius: 50px;
+	margin: 300px;
+	position: absolute;
+	animation-name: menu;
+	animation-duration: 2s;
+	box-shadow: 5px 5px;
+}
+
+div div{
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: block;
+	background: blue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.menu:hover{
+	transition-duration: 1s, 1s;
+	box-shadow: none;
+	background: radial-gradient(150px, powderblue, lightgreen);
+}
+
+.opcion1{
+	left: -280px;
+	box-shadow: 5px 5px black;
+	transition-duration: 1s, 1s;
+}
+
+.opcion2{
+	left: 0px;
+	box-shadow: 5px 5px black;
+	transition-duration: 1s, 1s;
+}
+
+.opcion3{
+	left: 280px;
+	box-shadow: 5px 5px black;
+	transition-duration: 1s, 1s;
+}
+
+.opcion1:hover{
+	transform: scale(1.5) translate(0px, -30px);
+	width: 100px;
+	height: 50px;
+	border-radius: 50px;
+	transition: 1s;
+	box-shadow: none;
+	font-size: 1.5em;
+	color: white;
+}
+
+.opcion2:hover{
+	transform: scale(1.5) translate(0px, -30px);
+	width: 100px;
+	height: 50px;
+	border-radius: 50px;
+	transition: 1s;
+	box-shadow: none;
+	box-shadow: none;
+	font-size: 1.5em;
+	color: white;
+}
+
+.opcion3:hover{
+	transform: scale(1.5) translate(0px, -30px);
+	width: 100px;
+	height: 50px;
+	border-radius: 50px;
+	transition: 1s;
+	box-shadow: none;
+	box-shadow: none;
+	font-size: 1.5em;
+	color: white;
+}
